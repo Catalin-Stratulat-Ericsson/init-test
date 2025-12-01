@@ -1,0 +1,8 @@
+apiVersion: kpt.dev/v1
+kind: Kptfile
+metadata:
+  name: my-second-package
+  annotations:
+    config.kubernetes.io/local-config: "true"
+info:
+  description: My second Porch package
